@@ -15,7 +15,6 @@
         
     <v-text-field
       v-model="name"
-      :rules="nameRules"
       label="Name"
       required
     ></v-text-field>
@@ -100,7 +99,6 @@
       <v-flex xs12 sm6 md3>
     <v-btn 
       
-      @click="submit"
       class="deep-purple darken-1 white--text"
     >
      Submit
