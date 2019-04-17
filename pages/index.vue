@@ -13,10 +13,10 @@
         <h1>Metadata</h1>
       </div>
       <v-card>
-        <v-card-title class="headline">El General</v-card-title>
+        <v-card-title class="headline"></v-card-title>
         <v-card-text>
-          <p>Melbourne,Australia</p>
-          <p>P: (123) 456-7890</p>
+          <!-- <p>Melbourne,Australia</p>
+          <p>P: (123) 456-7890</p> -->
         <Form/>
         </v-card-text>
         <v-card-actions>

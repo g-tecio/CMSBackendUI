@@ -49,7 +49,7 @@
         </v-list-tile-action>
 
         <v-list-tile-content>
-          <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+          <router-link :to="item.to"><v-list-tile-title>{{ item.title }}</v-list-tile-title></router-link>
         </v-list-tile-content>
       </v-list-tile>
     </v-list>
@@ -83,7 +83,7 @@ data() {
         {
           icon: 'table_chart',
           title: 'Structure Content',
-          to: '/'
+          to: '/structure-content'
         },
         {
           icon: 'settings',
