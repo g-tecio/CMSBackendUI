@@ -17,6 +17,7 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0",
     "tiptap": "^1.15.0",
+    "vue2-editor": "^2.6.6",
     "vuetify": "^1.5.5",
     "vuetify-loader": "^1.2.1"
   },
